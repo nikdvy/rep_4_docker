@@ -1,3 +1,3 @@
 FROM spaceonfire/nginx-php-fpm
 ENV WEB_DOCUMENT_INDEX=index.html
-COPY site app
+COPY site /var/www/html
